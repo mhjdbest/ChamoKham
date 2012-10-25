@@ -1,0 +1,100 @@
+
+version 1.3.6
+
+- feature: added "by depth" and "by time" layer sorting options
+- feature: Done duplicate slide 
+- feature: Done duplicate layer
+- change: removed unnessesary option: "full width centering". This options is now set by the slider type
+- bug fix: the fullwidth option is not grayed any more
+- bug fix: fix the backend sort layers bug (after deleting a layer)
+
+version 1.3.5
+-bug fix: jQuery Length error by removing slots from screen has been repaired.
+
+version 1.3.4
+-bug fix: With only One Slide the slider breaks. Bug solved.  With only one Slide no Bullets and no Navigation Arrows are visible !!
+-bug fix: Change time sortbox disabled clickable event.
+
+version 1.3.3
+
+-feature: added links support to image layer
+
+version 1.3.2
+-bug fix: Fade transition keeps some trash in the memory
+-bug fix: YouTube and Vimeo APIS only loads on Request
+
+version 1.3.1
+-bug fix: fixed the indexOf js bug
+
+version 1.3
+
+-feature: Added transition duration option to slide options
+-feature: Added background image option to slider options
+-feature: Vimeo and Youtube API added. Slider Countdown is stopped during the Playback.
+-bug fix: Improved js and css including, put it on another hook function.
+-bug fix: Some transition could not be skipped as first Slide. Bug is fixed.
+
+version 1.2.2
+
+-bug fix: in multisite tried to create "cache folder" on not existing upload path.
+
+version 1.2.1
+
+-bug fix: fixed the image layer url
+
+version 1.2
+
+- feature: added transitions - random / slidehorizontal / slidevertical
+- bug fix: fixed url fetching in js from image import dialog
+- bug fix: fixed css styles reload in backend
+
+version 1.1.5
+
+- feature: shortcodes works within html captions
+- bug fix: fixed all the image url's without php resizing. Now any image url's can be used, not only from the "wp-content" path.
+
+version 1.1.4
+- fix for Bootstraps : In case Bootstrap Theme is used, a img full-width:none !important overwrite bootstrap responsivity.
+
+version 1.1.3
+- fix wordpress content path init. Take from wp core instead hard coded wp-content
+
+version 1.1.2
+- workaoudn: JS Plugin resize the height of the Holder Container in case no default height has been set
+- feature: Random Funktion has been added vor Slide Transitions
+- bug fix: jQuery 1.8 Library works now fine
+
+version 1.1.1
+
+- bug fix: added buffering to shortcode output, for avoid double slider output.
+
+version 1.1
+
+-feature: added "insert button" dialog
+-fixed some bugs in ie8
+
+version 1.0.5
+
+-bug fix: fixed responsitive slider type, added initial width and height.
+
+version 1.0.4
+
+- feature: added option to turn on / off jquery noconflict mode
+
+version 1.0.3 - released 06/08/12
+
+- bug fix: add "default value" in insert slide mysql statement. Sometimes it caused error.
+
+version 1.0.2
+
+- bug fix: css Conflicht Fix, removed css Extension
+- bug fix: fullwidth option was missing in the output, added this option.
+
+version 1.0.1
+
+- bug fix: added update sortbox time on blur and not only on enter
+
+version 1.0 - 31.8.2012
+
+	first release
+

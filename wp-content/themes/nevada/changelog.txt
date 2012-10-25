@@ -1,0 +1,106 @@
+14.10.2012
+Version 1.3
+
+-- added prettyphoto lightbox to standard WP Gallery
+-- added additional sidebar management to Page Creator, from now you are able to widgetize pages
+-- added Theme Auto Updater
+-- added responsive options to page creator - hide and show boxes on special resolutions
+-- added Client Box to Page Creator
+-- minor css changes
+-- fixed footer styling option
+-- update to child theme
+
+-- changed files
+-- loop-contactform.php
+-- style.css
+-- layout.css
+-- style.php
+-- responsive.css
+-- functions.php
+-- header.php
+-- archive-portfolio.php
+-- loop-contactform.php
+-- functions/theme-functions.php
+-- functions/theme-layout-functions.php
+-- functions/pagecreator-functions.php
+-- functions/theme-activation-hook.php
+-- loop-pagecreator.php
+-- lambda/themeupdater/index.php
+-- lambda/metaboxes/lambda.slider.php
+-- lambda/metaboxes/lambda.metapanel.php
+-- lambda/assets/css/bootstrap.css
+-- lambda/assets/css/lambda.ui.css
+
+-- new files
+--- lambda/themeupdater/class-envato-api.php
+--- lambda/themeupdater/class-envato-backup.php
+--- lambda/themeupdater/class-wp-upgrader.php
+--- lambda/themeupdater/envato.php
+--- lambda/assets/images/responsive.png
+--- lambda/functions/admin/footer_background_pattern.php
+--- lambda/functions/admin/footer_background_texture.php
+
+-- new folders
+--- images/footer
+
+-- removed files
+-- functions/theme-update.php
+
+03.10.2012
+Version 1.2.1
+- updated child theme
+- fixed an issue with menu custom colors
+
+-- changed files
+-- lambda/assets/optionsdata/theme-options.xml
+-- css/colors/custom.css.php
+
+-- Please reload the XML File after updating the Theme!
+-- Go to Theme Options -> Manage Presets (upper right corner) and hit "Reload XML"
+
+
+02.10.2012
+Version 1.2
+- fixed an issue where pagecreator was adding empty boxes after each save
+- minor CSS changes
+- added qtranslate Support
+- client logos at startpage are now randomized
+- updated documentation
+
+- changed files:
+-- style.css
+-- template-home.php
+-- functions.php
+-- template-faq.php
+-- template-service.php
+-- template-team.php
+--- functions/theme-form-functions.php
+--- functions/pagecreator-functions.php
+--- lambda/metaboxes/lambda.metapanel.php
+--- lambda/metaboxes/lambda.slider.php
+--- lambda/widgets/lambda_recent_post.php
+--- lambda/assets/js/lambda.pttiny.js
+--- lambda/assets/js/lambda.meta.js
+--- lambda/assets/css/lambda.ui.css
+--- lambda/assets/css/bootstrap.css
+--- lambda/lambda.admin.functions.php
+
+- new files:
+--- lambda.qtranslate.php
+--- lambda.parsecontent.php
+--- languages/en_US.mo
+--- languages/en_US.po
+--- languages/xx_XX.pot
+
+28.09.2012
+Version 1.1
+- added "CTA" Shortcode
+- added "hide page" function for supersized Slider
+- added sample "Child Theme"
+- added new button colors
+- fixed an issue with headline displaying
+- fixed a minor Issue in our Slidermanager
+
+25.09.2012
+
+- initial Version 1.0

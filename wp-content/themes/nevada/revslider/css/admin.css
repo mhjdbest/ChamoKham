@@ -1,0 +1,546 @@
+
+/* ====================================== */
+/* 			General
+/* ====================================== */
+
+#div_debug{
+	xpadding:10px;
+	display:none;
+}
+
+.unite_error_message, .unite_success_message{
+	width:500px;
+	margin:10px;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius: 3px 3px 3px 3px;
+	color:#000000;
+}
+
+.unite_error_message{
+	border:1px solid #FA7C7C;
+	background-color:#FEE2E2;
+}
+
+.unite_success_message{
+	border:1px solid #7ED090;
+	background-color:#E3F5E7;
+}
+
+.margin_left10{
+	margin-left:10px;
+}
+
+.margin_right10{
+	margin-right:10px;
+}
+
+.vert_sap_small{
+	margin-top:10px;
+}
+
+.vert_sap{
+	margin-top:20px;
+}
+
+.vert_sap_medium{
+	margin-top:40px;
+}
+
+.hor_sap{
+	padding-right:15px;
+}
+
+.hor_sap_double{
+	padding-right:30px;
+}
+
+
+.unite_table_items tr td{
+	height:40px;
+	padding-top:10px;	
+}
+
+.unite_table_items tr td a{
+	font-size:14px;
+}		
+
+.loader_round{
+	width:16px;
+	height:16px;
+	background-image:url('../images/loader.gif');
+	background-repeat:no-repeat;
+	padding-left:20px;	
+}
+
+.success_message{
+	color:green;
+}
+
+/* ====================================== */
+/* 			Settings Wide
+/* ====================================== */
+
+.unite_settings_wide hr{
+	border:0px;
+	border-top:1px dashed #656565;
+}
+
+.unite_settings_wide .disabled th,
+.unite_settings_wide .disabled td,
+.unite_settings_wide .disabled input,
+.unite_settings_wide .disabled .description,
+.unite_settings_wide .disabled{
+	color:#6D6D6D;
+}
+
+.unite_settings_wide .disabled input{
+	background-color:#F0F0F0;
+}
+
+/* ====================================== */
+/* 			Textbox Classes
+/* ====================================== */
+
+.textbox-small{
+	width:60px;
+}
+
+.text-sidebar{	
+	width:60px;
+}
+
+.text-sidebar-normal{	
+	width:100px;
+}
+
+.text-sidebar-long{
+	width:125px;
+}
+
+.text-sidebar-link{
+	width:340px;
+}
+
+/* ====================================== */
+/* 			Settings
+/* ====================================== */
+
+.unite-postbox{
+	
+}
+
+.unite-postbox hr{
+	border:none;
+	border-top:1px solid #ACACAC;
+}
+
+.unite-postbox h3{
+	cursor:default;
+	height:25px;
+	cursor:pointer;
+	padding:0px;
+	margin:0px;
+	position:relative;
+}
+
+.unite-postbox h3.no-accordion{
+	cursor:default;
+}
+
+.unite-postbox h3 .postbox-arrow{
+	width:25px;
+	height:25px;
+	float:right;
+	background-image:url('../images/wp-arrows.png');
+	background-repeat:no-repeat;
+	background-position:right 5px;
+	margin-right:4px;	
+}
+
+.unite-postbox h3.box_closed .postbox-arrow{
+	background-position:right -66px;
+}
+
+.unite-postbox h3 span{
+	display:block;
+	padding-top:5px;
+	padding-left:5px;
+	color:#000000;
+	max-width:200px;
+	float:left;
+}
+
+/* style disabled input */	
+.unite-postbox li.disabled input, 
+.unite-postbox input[type='text'][disabled='disabled']{	
+	color:#6D6D6D;
+}
+
+.view_wrapper{
+	position:relative;
+}
+
+/* color picker */
+#divColorPicker{
+	position:absolute;
+}
+
+.zoomfact-text{
+	width:70px;
+}
+
+.wp-admin select{
+	min-width:80px;
+} 
+
+.settings_panel{
+	margin-top:10px;
+}
+
+.settings_panel .settings_panel_left{
+	float:left;	
+	width:630px;
+}
+
+.settings_panel .setting_required{
+	font-size:16px;
+	color:red;
+}
+
+.settings_panel_left .description{
+	display:block;
+}
+
+
+.settings_panel_left .button-primary{	
+	margin-top:20px;
+}
+
+.settings_panel .settings_panel_right{
+	float:left;
+	width:300px;
+}
+
+.list_settings{
+	padding:0px;
+	margin:0px;	
+}
+
+.list_settings li{
+	display:block;
+	padding-left:5px;
+	padding-top:10px;
+	padding-bottom:4px;
+}
+
+.list_settings li.disabled{
+	color:#6D6D6D;
+}
+
+.list_settings li .setting_text, 
+.list_settings li .setting_input, 
+.list_settings li .setting_unit{
+	display:block;
+	float:left;
+}
+
+
+.list_settings li .setting_text{ 
+	min-width:140px;
+	padding-right:4px;
+	corsor:default;
+	text-align:left;
+}
+
+.list_settings li .setting_unit{
+	padding-left:2px;
+	padding-top:3px;
+}
+
+.list_settings li .settings_addhtml{
+	padding-left:10px;
+}
+
+.list_settings li .setting_input select{
+	min-width:60px;
+}
+
+.list_settings .inputColorPicker{
+	width:110px;
+}
+
+
+.settings_buttons{
+	padding-top:15px;
+	padding-bottom:5px;
+}
+
+.button-image-select{
+	 margin-right:13px;
+}
+
+.setting-image-preview{
+	border:1px dashed black;
+	width:100px;
+	height:70px;
+	display:block;
+	margin-right:10px;
+	float:left;
+}
+
+
+/* ====================================== */
+/* 			Edit Slider
+/* ====================================== */
+
+
+#button_save_slider{
+	float:left;
+	margin:0px;	
+	text-align:center;
+}
+
+#button_cancel_save_slider{
+	float:left;
+	margin:0px;
+	margin-left:20px;
+}
+
+#button_delete_slider{
+	display:block;
+	width:73px;
+	float:left;
+	margin:0px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:2px;
+}
+
+#button_close_slider_edit{
+	display:block;
+	float:left;	
+	width:36px;
+	margin:0px;
+	margin-top:2px;
+	text-align:center;	
+}
+
+#link_edit_slides{
+	display:block;
+	float:left;	
+	margin-left:50px;
+	font-size:18px;
+	margin-top:5px;
+}
+
+#slider_update_button_wrapper div, #slider_update_button_wrapper a{
+	float:left;
+}
+
+
+/* ====================================== */
+/* 			Slides List
+/* ====================================== */
+
+.sliders_list_container{
+	width:620px;
+}
+
+.box-slideslist h3{
+	height:20px;
+	padding-top:5px;
+	padding-left:5px;
+}
+
+.box-slideslist .slideslist-title{
+	float:left;
+	width:200px;
+}
+
+.box-slideslist .slideslist-loading{
+	float:right;
+	width:100px;
+	padding-right:10px;
+	text-align:right;
+	font-size:12px;
+	display:none;
+}
+
+#list_slides{
+	margin:10px;
+	padding:0px;
+}
+
+#list_slides li{
+	padding:5px;
+	padding-bottom:3px;
+}
+
+#list_slides li span.slide-col{
+	float:left;
+	display:block;
+	text-align:center;
+}
+
+#list_slides li span.col-id{
+	width:30px;
+	padding-top:20px;
+}
+
+#list_slides li span.col-name{
+	min-width:180px;
+	width:180px;
+	padding-top:20px;
+}
+
+#list_slides li .button_delete_slide{
+	display:block;
+	xheight:18px;
+	width:35px;
+	margin:0px auto;	
+}
+
+#list_slides li span.col-name .button_edit_slide{
+	display:block;
+	width:55px;
+	margin:0px auto;
+	margin-top:10px;
+}
+
+#list_slides li span.col-operations{
+	width:120px;
+	padding-top:15px;
+	text-align:center;
+	display:block;
+}
+
+
+#list_slides li span.col-handle{
+	float:right;
+	border:1px solid #A1A1A1;
+	background-color:#E0E0E0;
+	
+	opacity: .6;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; 
+	filter: alpha(opacity=60);
+							
+	height:100px;
+	width:30px;
+	cursor:move;
+}
+
+#list_slides li div.col-handle-inside{
+	padding-top:43px;
+	padding-left:7px;
+}
+
+#list_slides .col-image{
+	display:block;
+	width:200px;
+	text-align:center;
+}
+	
+.col-image .slide_image{
+	cursor:pointer;	
+}
+
+#list_slides .button_duplicate_slide{
+	display:block;
+	width:52px;
+	margin:0px auto;
+	margin-top:30px;
+}
+
+/* ====================================== */
+/* 			Video Dialog
+/* ====================================== */
+
+.ui-dialog-content, 
+.ui-dialog-buttonpane{
+	cursor:default;
+}
+
+#dialog_video{
+	cursor:default;
+}
+
+.dialog-video .video-title{
+	margin-bottom:5px;
+}
+
+.dialog-video .video_example{
+	font-style:italic;
+	font-size:11px;
+	display:block;
+	margin-top:2px;
+	cursor:text;
+}
+
+.dialog-video .button-regular{
+	cursor:pointer;
+}
+
+.dialog-video .video_left{
+	float:left;
+	width:270px;
+}
+
+.dialog-video .video_right{
+	float:left;
+	width:390px;
+	margin-left:5px;
+}
+
+.dialog-video #button-video-add{
+	color:white;	
+}
+
+.dialog-video .add-button-wrapper{
+	margin-top:50px;
+	margin-left:50px;
+}
+
+.dialog-video .youtube-inputs-wrapper{
+	margin-top:30px;
+}
+
+.dialog-video .video-input-small{
+	width:50px;
+}
+
+.dialog-video #input_youtube_width{
+	margin-right:20px;
+}
+
+.dialog-video .video-content-title{
+	font-weight:bold;
+	padding-bottom:5px;
+}
+
+.dialog-video .video-content-description{
+	padding-top:3px;
+}
+
+.dialog-video .video-content-error{
+	padding-top:30px;
+	text-align:center;
+	font-size:16px;
+	color:red;
+}
+
+.dialog-video .choose-video-type{
+	margin-bottom:5px;
+}
+
+.dialog-video .video-select-block{
+	margin-top:20px;
+	border-top:1px dashed black;
+	padding-top:15px;
+}
+
+.dialog-video #video_radio_youtube{
+	margin-right:5px;
+}
+
