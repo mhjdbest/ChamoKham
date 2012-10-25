@@ -1,0 +1,1 @@
+Put these folders into wp-content/themes/nevada/images/ in order to get more individual backgrounds!
